@@ -10,8 +10,13 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "element-plus": "^2.1.7",
+    "es-module-lexer": "^0.10.4",
+    "koa": "^2.13.4",
+    "koa-static": "^5.0.0",
+    "magic-string": "^0.26.1",
     "md5": "^2.3.0",
     "vue": "^3.0.0",
+    "vue-router": "^4.0.14",
     "xlsx": "^0.18.5"
   },
   "devDependencies": {

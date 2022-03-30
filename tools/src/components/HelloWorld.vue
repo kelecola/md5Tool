@@ -15,6 +15,7 @@
         <div class="el-upload__tip">md5转化</div>
       </template>
     </el-upload>
+    <el-button :onClick="goConfig">跳转</el-button>
   </div>
 </template>
 
@@ -33,6 +34,10 @@ export default {
     };
   },
   methods: {
+    goConfig() {
+      console.log("goConfig");
+      this.$router.push("/config");
+    },
     beforeUpload: (uploadFile) => {
       const isPhoneAvailable = ($phoneInput) => {
         var myreg = /^[1][3,4,5,6,7,8,9][0-9]{9}$/;
